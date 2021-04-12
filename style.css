@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    text-align: center;
+    background-color: #2b2e4a;
+}
+h1 {
+    margin: none;
+    left: 50%;
+    top: 25%;
+    color: #ffffff;
+    font-size: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+}
+.clock {
+    font-family: 'Orbitron', sans-serif;
+
+}
+.clock p {
+    font-size: 14rem;
+    margin: 0;
+    color: #e84545;
+    top: 50%;
+    position: static;
+}
+.clockContainer {
+    margin-top: 10%;
+}
+.socials {
+    right: 2%;
+    top: 2%;
+    position: absolute;
+    text-align: right;
+    text-decoration-color: black;
+
+}
+.socials a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    color: seashell;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+footer a, a:visited, footer a:hover, footer a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 893px) and (min-width: 659px) {
+    .clock p {
+        font-size: 8rem;
+      }
+  }
+  @media only screen and (max-width: 1136px) and (min-width: 893px) {
+    .clock p {
+        font-size: 10rem;
+      }
+  }
+  
+  @media only screen and (max-width: 659px) and (min-width: 400px){
+    .clock p {
+        font-size: 5rem;
+      }
+    .socials {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 400px) and (min-width: 290px) {
+    .clock p {
+        font-size: 3rem;
+      }
+    .socials {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 290px) {
+    .clock p {
+        font-size: 2.9rem;
+      }
+    .socials {
+        display: none;
+    }
+  }
+  
+  
