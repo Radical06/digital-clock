@@ -1,2 +1,2 @@
 # digital-clock
-A modern digital clock created usign Javascript. 
+A modern digital clock created using Javascript. 
